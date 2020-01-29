@@ -1,6 +1,6 @@
 
 
-//% weight=5 color=#0fbc11 icon="\uf113"
+//% weight=5 color=#FF5733 icon="\uf113"
 namespace Servo {
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
