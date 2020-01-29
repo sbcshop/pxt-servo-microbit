@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "servomotor.ts",
-        "_locales/zh/servo_strings.json"
+        "_locales/zh/Servo_strings.json"
     ],
     "testFiles": [
         "test.ts"
