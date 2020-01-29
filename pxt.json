@@ -1,5 +1,5 @@
 {
-    "name": "Servo-microbit",
+    "name": "servo-microbit",
     "version": "0.0.0",
     "description": "Extension for sbcshop PCA8965 Servo Driver",
     "license": "MIT",
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "servomotor.ts",
-        "_locales/zh/servomotor-strings.json"
+        "_locales/zh/servo_strings.json"
     ],
     "testFiles": [
         "test.ts"
