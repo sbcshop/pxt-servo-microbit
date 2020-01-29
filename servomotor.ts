@@ -1,7 +1,7 @@
 
 
 //% weight=5 color=#FF5733 icon="\uf113"
-namespace Servo {
+namespace ServoMotor {
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
     const MODE2 = 0x01
