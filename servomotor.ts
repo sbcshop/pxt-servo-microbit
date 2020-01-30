@@ -1,6 +1,6 @@
 
 
-//% weight=5 color=#FF5733 icon="\uf1d4"
+//% weight=5 color=#FF5733 icon="\uf1b6"
 namespace ServoMotor {
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
@@ -88,7 +88,7 @@ namespace ServoMotor {
 	 * Servo Execute
 	 * @param degree [0-180] degree of servo; eg: 90, 0, 180
 	*/
-    //% blockId=setServo block="Channel|%channel|degree %degree"
+    //% blockId=setServo block="Channel number|%channel|degree %degree"
     //% weight=85
     //% degree.min=0 degree.max=180
     export function Servo(channel: number,degree: number): void {
@@ -105,7 +105,7 @@ namespace ServoMotor {
 	 * Servo Execute
 	 * @param pulse [500-2500] pulse of servo; eg: 1500, 500, 2500
 	*/
-    //% blockId=setServoPulse block="Channel|%channel|pulse %pulse"
+    //% blockId=setServoPulse block="Channel number|%channel|pulse %pulse"
     //% weight=85
     //% pulse.min=500 pulse.max=2500
     export function ServoPulse(channel: number,pulse: number): void {
