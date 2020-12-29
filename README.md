@@ -7,7 +7,7 @@
 ## URL
    
    
-   Project URL : http://github.com/dccshop/pxt-servo-microbit
+   Project URL : http://github.com/sbcshop/pxt-servo-microbit
 
 
 ## Supported Target 
